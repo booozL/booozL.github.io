@@ -1,0 +1,268 @@
+body {
+    background-color: #262626 ;
+
+}
+
+a {
+    text-decoration: none;
+    color: darkseagreen;
+}
+#container{
+    background-color: clear;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+#header {
+    background-color: white;
+    color: black;
+    text-align: center;
+   
+}
+
+#content {
+    padding: 5px;
+    color: floralwhite;
+    
+}
+
+#nav {
+    width: 150px;
+    float: right;
+    margin-top: 500px;
+        
+}
+
+#nav .selected {
+    font-weight: bold;
+}
+
+#main {
+    width: 500px;
+    float: right;
+    margin-top: auto;
+    
+}
+
+#InterestsandHobbies {
+    top: 400px;
+    float: right;
+    right: 500px;
+    font-size: 1.4em;
+}
+
+
+#footer {
+    clear: both;
+    
+}
+  
+
+#main
+{
+    color: black;
+    border-left-color: white;
+    border-left-style: solid;
+    border-right-color: white;
+    border-right-style: solid;
+    border-top-color: white;
+    border-top-style: solid;
+    border-bottom-style:solid;
+    border-color: white;
+    
+}
+
+
+#side-section{
+   position: absolute;
+  background:linear-gradient(to left, #f32170 , #ffeb07 , #2196f3 , #ff00eb) ;
+  border: black 1px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  position: absolute;
+  top: 455px;
+  left: 400px;
+    
+  position: absolute;
+  background-color: #AABFF4; 
+  color: white;
+position: absolute;
+  transition-duration: 0.6s;
+    
+    
+}
+
+
+
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+}
+
+h1
+{
+    font-size: 2em;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #f32170 , #ffeb07 , #2196f3 , #ff00eb)
+}
+
+h2
+{
+   font-family: 'Quicksand', sans-serif;
+    
+}
+h2
+{
+    font-size: 1.8em;
+    color: darkgreen;
+    text-shadow: 0 0 20px darkgreen;
+    content: '';
+    background: clear ;
+    opacity: 4;
+    
+}
+
+h3
+{
+  background:white;
+    color: black;
+    
+}  
+
+#Cricket{
+    position: absolute;
+    top: 495px;
+    left: 367px;
+    font-size: 1.4em;
+}
+
+#Gaming{
+    position: absolute;
+    top: 450px;
+    left: 367px;
+    font-size: 1.4em;
+}
+
+#Assignment1{
+    position: absolute;
+    top: 540px;
+    left: 367px;
+    font-size: 1.4em;
+}
+
+#Assignment2{
+    position: absolute;
+    top: 580px;
+    left: 367px;
+    font-size: 1.4em;
+}
+
+#Assignment3{
+    position: absolute;
+    top: 625px;
+    top: 625px;
+    left: 367px;
+    font-size: 1.4em;
+}
+
+#HobbiesandInterests{
+    position: absolute;
+    top: 400px;
+    left: 367px;
+    font-size: 1.4em;
+}
+
+#main{
+    position: absolute;
+    width:450px;
+    top: 400px;
+    height: 150px;
+  background-color: white;
+  opacity: 70%; 
+  left: 1050px;
+  padding: 20px;
+    
+}
+
+.face{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #ffcd00;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    left: 250px;  
+    top: auto;
+}
+
+.face::before{
+    content: '';
+    position: absolute;
+    top: 180px;
+    width: 150px;
+    height: 70px;
+    background: #b57700;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    transition: 0.5s;
+}
+
+.face:hover:before{
+    top: 210px;
+    width: 150px;
+    height: 20px;
+    background: #b57700;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.eyes{
+    position: relative;
+    top: 40px;
+    display: flex;
+}
+
+.eyes .eye{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: block;
+    background: #fff;
+    margin: 0 15px;
+     border-radius: 50%;
+}
+
+.eyes .eye::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50%;
+    
+}
+
+
+
+    
+
+    
+    
+
+

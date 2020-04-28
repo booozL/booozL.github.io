@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Assignment1.css" />
+    <div id="container">
+        <div id="header">
+            <h1>Assignment 1</h1>
+            
+           <style>
+
+
+
+</style>
+            
+    </div> 
+        <div id="content">
+        <div id="nav">
+        <div class="side-section">
+            
+            </div>
+            
+            
+            <div id="main">
+                <h2>Internet and Website Development</h2> 
+                <p>Computers are connected to connections called clients and servers. Servers are computers that store webpages, sites and apps. When a clients wants something, the server downloads a copy of it and sends it to the client. For example, the client is asking for a website. The server then searches the webpage out, downloads it and sends it to the client which then processes it into what we see. Clients are you're internet connection and your browser software. The client processes the webpage from code into pictures, text, videos etc.</p>
+                
+                <p>The internet is a network and combination of multiple different networks. The World Wide Web (WWW) is a collection of infomation which is provided to the internet. The internet is a massive combination or networking systems around the globe. The internet provides us infomation online which was oringinally sourced from the WWW. To make this easier to understand, think of the internet as a book store, and the WWW as the books in the book store.</p>
+                
+                <p>The Intranet is also a type of networking system. The Intranet is very similar and is based upon the same basic concept, but unlike the internet, the Intranet is private. It is designed to to support an organisation's employees to communicate and work together online, in their own privacy. The Intranet is made to help employees and buisnesses. The benefits of the intranet include: increased workforce productivity, cross-platform compatibility, low cost, increases employee engagement and easy access to web publishing.</p>
+                
+                <p>Internet protocol is a set of rules which are followed to transfer data online. Data that is transfered through the internet are broken down into smaller forms. The term used for this form is packets. Infomation is stored in the "packets" which helps routers send infomation into the right place. Every single device that uses internet, such as computers, are given a IP address. This tells the router where the infomation should go. </p>
+                
+                <p>Packets are tranfered by using different methods. These methods are File Transfer Protocol (FTP), Hyper Text Transfer Protocol (HTTP) and Transmission Control Protocol (TCP). HTTP is better for small file transfer, such as websites and webpages. FTP is efficient at transfering larger files such as images, videos, audio and archive files(zip, rar). Finally, TPC is what FTP and HTTP files transfer through. TPC provides reliable and ordered dilivery of TPC and FTP files.</p>
+                
+            </div>
+
+            
+            
+            
+            <div id="TakeMeBack">
+             <a href="index.html">Home Page</a>
+            </div>
+            
+            <div id="Cricket">
+             <a href="CricketingAchievements.html">Cricketing Achievements</a>
+            </div>
+             
+            <div id="Gaming">
+               <a href="GamingAchievements.html">Gaming Achievements</a> 
+            </div>
+            
+            
+            <div class="face">
+                <div class="eyes">
+                <div class="eye"></div>
+                <div class="eye"></div>
+                </div>
+            </div>
+            <script>
+                document.querySelector("body").addEventListener("mousemove", eyeball);
+                function eyeball(){
+                    var eye = document.querySelectorAll('.eye')
+                    eye.forEach(function(eye){
+                        let x =(eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
+                        let y =(eye.getBoundingClientRect().top) + (eye.clientWidth / 2);
+                        let radian = Math.atan2(event.pageX - x, event.pageY - y)
+                        let rot = (radian * (180 / Math.PI) * -1) + 270;
+                        eye.style.transform = "rotate("+ rot +"deg)";
+                        
+                        
+                    })
+                }
+            </script>
+            

@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Hobbies%20and%20Interests.css" />
+    <div id="container">
+        <div id="header">
+            <h1>Hobbies and Interests</h1>
+            
+           <style>
+
+
+
+</style>
+            
+    </div> 
+        <div id="content">
+        <div id="nav">
+        <div class="side-section">
+            
+            </div>
+            
+            
+            <div id="main">
+                <h2>Hobbies</h2> 
+                <p>Rumeth Fonseka has many hobbies that he does everyday. These activities include: </p>
+                <ul>
+                    <li>Gaming</li>
+                    <li>Playing Sport</li>
+                    <li>Doing School Work</li>
+                    <li>Sleeping</li>
+                    <li>Eating</li>
+                </ul>
+                <p>Rumeth spends most of his free time playing video games. During Summer, he likes to play cricket every Thursday, Saturday and sometimes on Sunday. The links on the right will take you through a tour of Rumeth's achievements in Cricket and Gaming.</p>
+            </div>
+
+            
+            
+            
+            <div id="TakeMeBack">
+             <a href="index.html">Home Page</a>
+            </div>
+            
+            <div id="Cricket">
+             <a href="CricketingAchievements.html">Cricketing Achievements</a>
+            </div>
+             
+            <div id="Gaming">
+               <a href="GamingAchievements.html">Gaming Achievements</a> 
+            </div>
+            
+            
+            <div class="face">
+                <div class="eyes">
+                <div class="eye"></div>
+                <div class="eye"></div>
+                </div>
+            </div>
+            <script>
+                document.querySelector("body").addEventListener("mousemove", eyeball);
+                function eyeball(){
+                    var eye = document.querySelectorAll('.eye')
+                    eye.forEach(function(eye){
+                        let x =(eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
+                        let y =(eye.getBoundingClientRect().top) + (eye.clientWidth / 2);
+                        let radian = Math.atan2(event.pageX - x, event.pageY - y)
+                        let rot = (radian * (180 / Math.PI) * -1) + 270;
+                        eye.style.transform = "rotate("+ rot +"deg)";
+                        
+                        
+                    })
+                }
+            </script>
+            
+           
+         
+            
+            
+            
+</body>
+
+</html>
+    
+    </head>
+</html>

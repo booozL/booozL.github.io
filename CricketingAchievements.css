@@ -1,0 +1,197 @@
+
+body {
+    background-color: #262626;
+
+}
+
+a {
+    text-decoration: none;
+    color: darkseagreen;
+    margin-right: 100px
+}
+#container{
+    background-color: #262626;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: black;
+    color: black;
+    text-align: center;
+   
+}
+
+#content {
+    padding: 10px;
+    
+}
+
+#nav {
+    width: 380px;
+    float: right;
+    right: 90px;
+    top: 500px;
+}
+
+    
+}
+
+#nav .selected {
+    font-weight: bold;
+}
+
+#main {
+    width: 500px;
+    float: right;
+    top: 900px;
+}
+
+
+
+
+h1
+{
+    font-size: 2em;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #f32170 , #ffeb07 , #2196f3 , #ff00eb)
+}
+
+
+
+#footer {
+    clear: both;
+    
+}
+
+#Index{
+    position: absolute;
+    top: 150px;
+    left:400px;
+    font-size: 1.4em;
+}
+
+#Hobbies{
+    position: absolute;
+    top: 175px;
+    left: 400px;
+    font-size: 1.4em;
+}
+
+#Gaming{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 1.4em;
+}
+
+
+
+h2
+{
+    font-size:2em;
+    color: darkgreen;
+    text-shadow: 0 0 20px darkgreen;
+    content: '';
+    background:clear ;
+    opacity: 4;
+    
+}
+
+
+ul
+{
+    color: black;
+}
+
+p
+{
+    color: black;
+    border-left-color: white;
+    border-left-style: solid;
+    border-right-color: white;
+    border-right-style: solid;
+    border-top-color: white;
+    border-top-style: solid;
+    border-bottom-style:solid;
+    border-color: white;
+    
+}
+
+#main{
+    position: absolute;
+    width:450px;
+    top: 100px;
+    height: 450px;
+  background-color: white;
+  opacity: 70%; 
+  left: 700px;
+  padding: 20px;
+}
+
+.face{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #ffcd00;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    right: 450px; 
+    top: 175
+}
+
+.face::before{
+    content: '';
+    position: absolute;
+    top: 180px;
+    width: 150px;
+    height: 70px;
+    background: #b57700;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    transition: 0.5s;
+}
+
+.face:hover:before{
+    top: 210px;
+    width: 150px;
+    height: 20px;
+    background: #b57700;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.eyes{
+    position: relative;
+    top: 40px;
+    display: flex;
+}
+
+.eyes .eye{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: block;
+    background: #fff;
+    margin: 0 15px;
+     border-radius: 50%;
+}
+
+.eyes .eye::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50%;
+    
+}
+
+
+    

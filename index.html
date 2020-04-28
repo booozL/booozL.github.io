@@ -1,0 +1,96 @@
+<html>
+    
+<head>
+<title>Rumeth Fonseka</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    
+    <body>
+        
+<header>
+<center><img src="images/yes.jpg"
+	style="width: 400px; height: 250px">
+    </center>
+</header>
+        
+    
+    <div id="container">
+        <div id="header">
+            <h1>Rumeth Fonseka</h1>
+            
+    </div> 
+        <div id="content">
+        <div id="nav">
+        <div class="side-section">
+             </div>
+            </div>
+            
+            <h2>Navigation: </h2>
+            
+            
+            <div id="main">
+                <h2>Contacts</h2> 
+                <ul>
+                <h3>Phone Number: 0432231183</h3>
+                <h3>Email: Rumeth.fonseka@education.nsw.gov.au</h3>
+                </ul>
+                
+            </div>
+
+           
+        
+            <div id="HobbiesandInterests">
+             <a href="Hobbies%20and%20Interests.html">Hobbies and Interests</a>
+             </div>
+            
+            <div id="Gaming">
+               <a href="GamingAchievements.html">Gaming Achievements</a> 
+            </div>
+            
+            <div id="Cricket">
+             <a href="CricketingAchievements.html">Cricketing Achievements</a>
+            </div>
+            
+            <div id="Assignment1">
+                <a href="Assignment1.html">Assignment 1</a>
+            </div>
+            
+            <div id="Assignment2">
+                <a href="Assignment2.html">Assignment 2</a>
+            </div>
+            
+            <div id="Assignment3">
+                <a href="Assignment3.html"> Assignment 3</a>
+            </div>
+            
+            
+            <div class="face">
+                <div class="eyes">
+                <div class="eye"></div>
+                <div class="eye"></div>
+                </div>
+            </div>
+            <script>
+                document.querySelector("body").addEventListener("mousemove", eyeball);
+                function eyeball(){
+                    var eye = document.querySelectorAll('.eye')
+                    eye.forEach(function(eye){
+                        let x =(eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
+                        let y =(eye.getBoundingClientRect().top) + (eye.clientWidth / 2);
+                        let radian = Math.atan2(event.pageX - x, event.pageY - y)
+                        let rot = (radian * (180 / Math.PI) * -1) + 270;
+                        eye.style.transform = "rotate("+ rot +"deg)";
+                        
+                        
+                    })
+                }
+            </script>
+           
+                
+            
+            
+        
+</body>
+
+</html>

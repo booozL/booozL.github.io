@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CricketingAchievements.css" />
+    <div id="container">
+        <div id="header">
+            <h1>Cricketing Achievements</h1>
+            
+           <style>
+
+
+
+</style>
+            
+    </div> 
+        <div id="content">
+        <div id="nav">
+        <div class="side-section">
+            
+            </div>
+            
+            
+            <div id="main">
+                <h2>Cricketing</h2> 
+                <p>Rumeth is quite good at cricket, his main skill being batting. He plays for Magpies Cricket club, for their under 15's team and sometimes their under 16's team. The other team that he used to play was Ingleburn RSL. Rumeth has made it into multiple other teams such as Magpies Grade 8, Reps team and State team, although he has not played in the State competition.</p>
+                
+                <p>The equipment Rumeth used to play cricket include: New Balance DC 880 (Bat, $600), New Balance DC 880 (Gloves $150), Asics Gel Peak 5 (Shoes $100), Grey Nicolls Thigh Guard ($75), Grey Nicolls Arm Guard ($75), Kingsgrove Batting Pads ($150) and Grey Nicolls Roller Bag ($100). This makes the total cost of Rumeth's equipment $1250. </p>
+                
+                <p>Some of Rumeth's Achievements in cricket include: Average of 35 in 8 matches, 209 runs in 8 matches, 55 runs in 1 game, 5 wickets in 1 game, Career average of 20 and a career strike rate of 130.</p>
+                
+            </div>
+
+            
+            
+            
+            <div id="Index">
+             <a href="index.html">Home Page</a>
+            </div>
+            
+            <div id="Hobbies">
+             <a href="Hobbies%20and%20Interests.html">Hobbies and Interests</a>
+            </div>
+             
+            <div id="Gaming">
+               <a href="GamingAchievements.html">Gaming Achievements</a> 
+            </div>
+            
+            <div class="face">
+                <div class="eyes">
+                <div class="eye"></div>
+                <div class="eye"></div>
+                </div>
+            </div>
+            <script>
+                document.querySelector("body").addEventListener("mousemove", eyeball);
+                function eyeball(){
+                    var eye = document.querySelectorAll('.eye')
+                    eye.forEach(function(eye){
+                        let x =(eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
+                        let y =(eye.getBoundingClientRect().top) + (eye.clientWidth / 2);
+                        let radian = Math.atan2(event.pageX - x, event.pageY - y)
+                        let rot = (radian * (180 / Math.PI) * -1) + 270;
+                        eye.style.transform = "rotate("+ rot +"deg)";
+                        
+                        
+                    })
+                }
+            </script>
+            
+           
+         
+            
+            
+            
+</body>
+
+</html>
+    
+    </head>
+</html>
